@@ -106,12 +106,37 @@ nav li a{
 }
 /* header ends */
 /* main section begins */
-
+main{
+    max-width: 1140px;
+    margin: 130px auto;
+}
 /* about section */
 .about
 {
-    margin-top: 130px 0;
+    /* margin-top: 130px 0; */
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px;
+}
+.about .about-info-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.about .about-info
+{
+    text-align: center;
+}
+.about .info-title
+{
+    color:  #757575;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+}
+.about-info .info-description
+{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
