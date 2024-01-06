@@ -113,7 +113,7 @@ main{
 /* about section */
 .about
 {
-    /* margin-top: 130px 0; */
+     margin-bottom: 130px; 
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px;
@@ -140,3 +140,9 @@ main{
     font-weight: 700;
     line-height: 30px;
 }
+/* whatido section begins */
+#whatido-description
+{
+    padding: 40px 115px;
+}
+/* whatido section ends */
